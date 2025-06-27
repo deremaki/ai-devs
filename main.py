@@ -1,4 +1,7 @@
 # main.py
+from dotenv import load_dotenv
+load_dotenv()
+
 
 from s00e00.s00e00 import run_s00e00
 
