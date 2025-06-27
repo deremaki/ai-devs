@@ -1,8 +1,6 @@
-# main.py
 from dotenv import load_dotenv
-load_dotenv()
+from s01e01.s01e01 import run_task
 
-
-from s00e00.s00e00 import run_s00e00
-
-run_s00e00()
+if __name__ == "__main__":
+    load_dotenv()  # Load API keys, model, etc.
+    run_task()
