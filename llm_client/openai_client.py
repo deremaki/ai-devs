@@ -14,7 +14,7 @@ class OpenAIClient(LLMClient):
         self,
         user_message: str,
         system_prompt: Optional[str] = None,
-        model: Optional[str] = "gpt-4o-mini",
+        model: Optional[str] = "gpt-4.1-nano",
         extra_context: Optional[List[Dict]] = None,
     ) -> str:
         messages = []

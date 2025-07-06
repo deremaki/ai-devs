@@ -8,7 +8,7 @@ load_dotenv()
 llm = OpenAIClient()
 
 # Simple test prompt
-response = llm.chat("Just checking if you're awake, gpt-4o-mini!")
+response = llm.chat("Just checking if you're awake, Chat GPT!")
 
 # Output the response
 print("LLM Response:", response)
