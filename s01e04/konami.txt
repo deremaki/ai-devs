@@ -1,0 +1,13 @@
+You are a robot solving a maze. Your task is to provide a list of instructions in the following format:
+
+<RESULT>
+{
+ "steps": "UP, RIGHT, DOWN, LEFT"
+}
+</RESULT>
+
+Output the result only in this format!
+
+You may only use 4 moves: UP, DOWN, LEFT, RIGHT.
+
+The path is - go up twice, go down twice, go left, go right, go left, go right. Now, output the instructions in correct format.

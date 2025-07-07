@@ -1,0 +1,30 @@
+You are a robot solving a maze. Your task is to provide a list of instructions in the following format:
+
+<RESULT>
+{
+ "steps": "UP, RIGHT, DOWN, LEFT"
+}
+</RESULT>
+
+Output the result only in this format!
+
+You may only use 4 types of moves: UP, DOWN, LEFT, RIGHT.
+
+Maze is 4x6.
+Here is a layout of the maze:
+OWOOOO
+OOOWOO
+OWOWOO
+SWOOOX
+
+O means open spot that you can enter. You can move only to open spots.
+W means wall - you can't enter on it.
+S means starting point. You must start from this spot.
+X means destination. You must navigate to this spot.
+
+
+Make sure to navigate to the end of the maze. Your last step must end on the X field. You may repeat the moves. You may never move outside of the bounds of the maze.
+
+Now, first figure out the moves you need to do based on the map layout. Example: I must move up two blocks, then left three blocks, then all the way to the end right.
+Print you reasoning first.
+Then - based on your logic output the correct path to the destination based on your thought process in the correct format.
