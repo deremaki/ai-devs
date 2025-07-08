@@ -1,11 +1,6 @@
 from dotenv import load_dotenv
-from s01e03.runner import run_s01e03
-
-
-def main():
-    load_dotenv()
-    run_s01e03()
-
+from s01e05.s01e05 import run_task
 
 if __name__ == "__main__":
-    main()
+    load_dotenv()
+    run_task()
