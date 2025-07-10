@@ -33,3 +33,16 @@ class OpenAIClient(LLMClient):
         )
 
         return response.choices[0].message.content.strip()
+    
+    def vision_chat(
+        self,
+        messages: List[Dict],
+        model: str = "gpt-4o",
+        max_tokens: int = 500,
+    ) -> str:
+        response = self.client.chat.completions.create(
+            model=model,
+            messages=messages,
+            max_tokens=max_tokens,
+        )
+        return response.choices[0].message.content.strip()
