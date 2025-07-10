@@ -2,6 +2,7 @@ import os
 from openai import OpenAI
 from typing import List, Optional, Dict
 from .base import LLMClient
+import mimetypes
 
 class OpenAIClient(LLMClient):
     def __init__(self, api_key: Optional[str] = None):
@@ -70,3 +71,11 @@ class OpenAIClient(LLMClient):
             n=n
         )
         return response.data[0].url
+    
+    def transcribe_with_whisper(self, file_path: str, model: str = "whisper-1") -> str:
+        with open(file_path, "rb") as audio_file:
+            transcript = self.client.audio.transcriptions.create(
+                model=model,
+                file=audio_file
+            )
+        return transcript.text
