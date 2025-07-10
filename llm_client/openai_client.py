@@ -46,3 +46,27 @@ class OpenAIClient(LLMClient):
             max_tokens=max_tokens,
         )
         return response.choices[0].message.content.strip()
+    
+    def generate_image_dalle3(
+        self,
+        prompt: str,
+        size: str = "1024x1024",
+        response_format: str = "url",
+        quality: str = "standard",
+        style: str = "vivid",
+        n: int = 1,
+    ) -> str:
+        """
+        Generate an image using DALL-E 3.
+        Returns the URL to the generated image.
+        """
+        response = self.client.images.generate(
+            model="dall-e-3",
+            prompt=prompt,
+            size=size,
+            response_format=response_format,
+            quality=quality,
+            style=style,
+            n=n
+        )
+        return response.data[0].url
