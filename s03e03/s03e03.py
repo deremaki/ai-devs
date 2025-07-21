@@ -130,3 +130,13 @@ def run_task():
 
 def run_secret():
     show_tables_result = query_api("SHOW TABLES;")
+    result = query_api(f"SHOW CREATE TABLE correct_order;")
+    schema = result['reply'][0]['Create Table']
+
+    sql = "SELECT base_id, letter, weight FROM correct_order ORDER BY base_id, weight;"
+    
+    data = query_api(sql)
+
+    secret_flag = ''.join(sorted(data['reply'], key=lambda x: int(x['weight']))[i]['letter'] for i in range(len(data['reply'])))
+
+    print(secret_flag)
