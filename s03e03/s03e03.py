@@ -133,7 +133,7 @@ def run_secret():
     result = query_api(f"SHOW CREATE TABLE correct_order;")
     schema = result['reply'][0]['Create Table']
 
-    sql = "SELECT base_id, letter, weight FROM correct_order ORDER BY base_id, weight;"
+    sql = "SELECT base_id, letter, weight FROM correct_order ORDER BY weight;"
     
     data = query_api(sql)
 
