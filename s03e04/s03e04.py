@@ -219,4 +219,4 @@ def run_task():
     
 
 def run_secret():
-    sender.send("LUBLIN")
+    print(query_centrala("places", "RADOM"))
