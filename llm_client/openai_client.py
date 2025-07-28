@@ -38,9 +38,35 @@ class OpenAIClient(LLMClient):
     def vision_chat(
         self,
         messages: List[Dict],
-        model: str = "gpt-4o",
+        model: str = "gpt-4.1-mini",
         max_tokens: int = 500,
     ) -> str:
+        response = self.client.chat.completions.create(
+            model=model,
+            messages=messages,
+            max_tokens=max_tokens,
+        )
+        return response.choices[0].message.content.strip()
+    
+    def vision_chat_with_base64(
+        self,
+        user_message: str,
+        system_prompt: str,
+        img_in_base64: str,
+        model: str = "gpt-4.1-mini",
+        max_tokens: int = 500,
+    ) -> str:
+        messages = [
+        {"role": "system", "content": system_prompt },
+        {"role": "user", "content": [
+            {
+                "type": "text",
+                "text": user_message
+            }
+        ] + [
+            {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_in_base64}"}}
+        ]}
+    ]
         response = self.client.chat.completions.create(
             model=model,
             messages=messages,
