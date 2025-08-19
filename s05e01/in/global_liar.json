@@ -1,0 +1,9 @@
+{
+  "liar": "Samuel",
+  "confidence": 0.9,
+  "reasons": [
+    "Samuel twierdzi, że Sektor D produkuje broń, ale fakty mówią, że Sektor D jest wyłączony z produkcji i służy jako magazyn.",
+    "Samuel twierdzi, że 'piątka' jest posłuszną owieczką nieświadomą, ale Tomasz mówi, że piątka to ten, którego hasło uzyskał, co jest spójne - a Samuel często używa potocznych określeń niezgodnych z powagą faktów.",
+    "Samuel komentuje, że Barbara nie wykonała zadania i krytykuje ją za naukę JavaScriptu, co jest sprzeczne z podanymi faktami, że Barbara jest specjalistką frontend developementu i to ona uczyła go programowania."
+  ]
+}
