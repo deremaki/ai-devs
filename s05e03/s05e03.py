@@ -101,3 +101,5 @@ def run_task():
 
     final_resp = requests.post(RAFAL_URL, json=final_answer)
     print(f"[{perf_counter()-t0:.3f}s] Zgłoszenie zakończone:", final_resp.text)
+
+    #"https://open.spotify.com/playlist/64DpzJttVaYGgdMS6tTNrW?si=473a86c8046745a5"
