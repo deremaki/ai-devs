@@ -1,0 +1,353 @@
+{
+  "rozmowa1": {
+    "participants": [
+      "Samuel",
+      "Barbara"
+    ],
+    "turns": [
+      {
+        "n": 1,
+        "speaker": "Samuel",
+        "text": "- Hej! Jak tam agentko? Jak się czujesz po rozmowie?"
+      },
+      {
+        "n": 2,
+        "speaker": "Barbara",
+        "text": "- No cześć. Trochę nieswojo, ale jakoś to będzie. On był w naprawdę kiepskim stanie. Trudno się z nim rozmawiało"
+      },
+      {
+        "n": 3,
+        "speaker": "Samuel",
+        "text": "- Ale zrozumiał coś z tego, co mu powiedziałaś?"
+      },
+      {
+        "n": 4,
+        "speaker": "Barbara",
+        "text": "- ten stan nawet ułatwiał, a nie utrudniał zadanie. Chłonął wiedzę jak gąbka. Myślę, że wszystko zrozumiał."
+      },
+      {
+        "n": 5,
+        "speaker": "Samuel",
+        "text": "- To dobrze, że zrozumiał. A co z tymi dokumentami, o których rozmawialiśmy?"
+      },
+      {
+        "n": 6,
+        "speaker": "Barbara",
+        "text": "- dokumenty? Mówił, że wszystko ma w komputerze, ale gość nie miał przy sobie żadnego sprzętu. W tej norze nawet prądu nie było."
+      },
+      {
+        "n": 7,
+        "speaker": "Samuel",
+        "text": "- To co teraz zrobimy? Trzeba ich szukać u niego w mieszkaniu, bo tam chyba zostawił sprzęt?"
+      },
+      {
+        "n": 8,
+        "speaker": "Barbara",
+        "text": "- pewnie tak, ale gdzie jest to jego mieszkanie? Obecnie to chyba ta jaskinia nazywana jest przez niego \"domem\" hahaha"
+      },
+      {
+        "n": 9,
+        "speaker": "Samuel",
+        "text": "- a zdalny dostęp do jego kompa wchodzi w grę jeśli nie możemy iść do mieszkania?"
+      },
+      {
+        "n": 10,
+        "speaker": "Barbara",
+        "text": "- myślę, że tak. Zdalnie sobie poradzimy. Goście z centrali kombinują coś z przeszukiwaniem całej puli adresów IP. Jak tylko coś znajdą, to dam Ci znać. Sama jestem ciekawa na ile on zabezpieczył swój sprzęt i co tam w miał w środku."
+      },
+      {
+        "n": 11,
+        "speaker": "Samuel",
+        "text": "- no to czekam na informację jak już znajdą to IP, a on jest już z Tobą?"
+      },
+      {
+        "n": 12,
+        "speaker": "Barbara",
+        "text": "- nie ma go tutaj. Wiesz co... trochę się sprawy pokomplikowały. Niezupełnie to wszystko poszło zgodnie z planem."
+      },
+      {
+        "n": 13,
+        "speaker": "Samuel",
+        "text": "- poszło niezgodnie z planem? uciekł Ci gość?"
+      },
+      {
+        "n": 14,
+        "speaker": "Barbara",
+        "text": "- nie uciekł. Gość nie żyje... Goście z centrali wysłali tam drona. Dowiedziałam się o wszystkim z raportu"
+      },
+      {
+        "n": 15,
+        "speaker": "Samuel",
+        "text": "- coooo? jak to możliwe? Rozmawiamy, a Ty jakby nigdy nic mówisz, że \"nie żyje\"? Kiedy miałaś zamiar mi powiedzieć? no i skąd oni wiedzieli gdzie szukać? To była przecież jaskinia na odludziu!"
+      },
+      {
+        "n": 16,
+        "speaker": "Barbara",
+        "text": "- czy to jest teraz ważne skąd?! Andrzej miał nadajnik GPS w samochodzie, to go namierzyli nawet na tym odludziu. No zawaliłam z tym. Wiem, ale ważniejsze jest teraz to, że gość nie żyje i nie mamy dostępu do jego komputera. To jest najważniejsze. Kurwa, wiesz [*niesłyszalne*], żal mi gościa... "
+      },
+      {
+        "n": 17,
+        "speaker": "Samuel",
+        "text": "- żal Ci... żal... ale on nie wykonał zadania. Fuck!!!!"
+      },
+      {
+        "n": 18,
+        "speaker": "Barbara",
+        "text": "- no nie wykonał! i już raczej nie wykona w tym stanie... Andrzeja też już nie ma i nie wiadomo gdzie jest. Zwiał"
+      },
+      {
+        "n": 19,
+        "speaker": "Samuel",
+        "text": "- no to wyciągnij z centrali informację w którym kierunku pojechał Andrzej!"
+      },
+      {
+        "n": 20,
+        "speaker": "Barbara",
+        "text": "- problem w tym, że zostawił swój samochód, więc nie za bardzo \"pojechał\". Może on mu powiedział o nadajniku?"
+      },
+      {
+        "n": 21,
+        "speaker": "Samuel",
+        "text": "- a to on wiedział, że Andrzej ma nadajnik w samochodzie?"
+      },
+      {
+        "n": 22,
+        "speaker": "Barbara",
+        "text": "- a kto to wie... przecież [*niesłyszalne*] nigdy nie wiadomo co on tam wiedział i czy był świadomy nadajnika. Możemy się tylko domyślać."
+      },
+      {
+        "n": 23,
+        "speaker": "Samuel",
+        "text": "- Dobra. Uznajmy, że wiedział o nadajniku. A zostały jakieś Twoje ślady w jaskini jak tam byłaś? mogą się zorientować, żę go odwiedzałaś?"
+      },
+      {
+        "n": 24,
+        "speaker": "Barbara",
+        "text": "- byłam tam normalnie, jawnie. Umówiłam się oficjalnie, że będę go uczyła JavaScriptu. Miał mu się przydać do szkolenia tego, co teraz przerabia. Na papierze treść lekcji czyta, to mu chciałam trochę potłumaczyć to wszystko. Nie chciałam przecież mówić wprost po co przyjeżdżam."
+      },
+      {
+        "n": 25,
+        "speaker": "Samuel",
+        "text": "- no ja nie mogę... na czym go miałaś uczyć tego JavaScriptu? Gość nie ma kompa czaisz?! Na glinianych tabliczkach mieliście pisać te programy dłutem? Teraz wiedzą, że tam byłaś! Dobra, nara! Mam Zygfryda na drugiej linii [*dźwięk odkładanej słuchawki*]"
+      }
+    ],
+    "notes": {
+      "confidence": 0.95,
+      "hints": [
+        "Pierwszy zwrot 'agentko' sugeruje, że pierwszą wypowiedź mówi Samuel, zwracając się do Agentki.",
+        "Rozmowa jest naprzemienna i dotyczy działań Agentki i Samuela.",
+        "Postać 'Zygfryd' pojawia się w ostatnim zdaniu jako osoba na drugiej linii, więc jest trzecim uczestnikiem rozmowy, ale on nie uczestniczy w tekście."
+      ]
+    }
+  },
+  "rozmowa2": {
+    "participants": [
+      "Zygfryd",
+      "Samuel"
+    ],
+    "turns": [
+      {
+        "n": 1,
+        "speaker": "Zygfryd",
+        "text": "- Witaj Samuelu. Rozmawiałeś z nią?"
+      },
+      {
+        "n": 2,
+        "speaker": "Samuel",
+        "text": "- tak. Dosłownie przed chwilą rozmawiałem, gdy zadzwoniłeś, ale nic od niego nie wydobyła"
+      },
+      {
+        "n": 3,
+        "speaker": "Zygfryd",
+        "text": "- dlaczego? nie wykonała zadania? co z nią?"
+      },
+      {
+        "n": 4,
+        "speaker": "Samuel",
+        "text": "- rozmawiała z nim, ale nie zdołała zdobyć brakujących informacji. Mówił, że wszystko ma w komputerze, ale nie miał przy sobie żadnego sprzętu. Do tego durna baba jako wymówkę wzięła \"naukę JavaScriptu\". Czaisz? dżejesa go będzie uczyć! W centrali mają teraz pewnie niezły ubaw. Poza tym, to... Zygfryd, Ty słyszałeś co się stało?"
+      },
+      {
+        "n": 5,
+        "speaker": "Zygfryd",
+        "text": "- Tak Samuelu. Słyszałem. Wiem o wszystkim. Przede mną się to nie ukryje."
+      },
+      {
+        "n": 6,
+        "speaker": "Samuel",
+        "text": "- no ja nie mogę... ale to spokojnie przyjmujesz. Po prostu \"słyszałem\"? Gościa już nie ma! Nie żyje! Oni chyba [*niezrozumiałe dźwięki*] i gość nie żyje! [*niezrozumiałe dźwięki*] więc musimy [*trzaski*] więc [*trzaski*] bo dron [*trzaski*]"
+      },
+      {
+        "n": 7,
+        "speaker": "Zygfryd",
+        "text": "- hej! jesteś tam? Coś słabo Cię słychać. Słychać tylko trzaski i przerywa mocno. Halooooo?"
+      }
+    ],
+    "notes": {
+      "confidence": 0.95,
+      "hints": [
+        "Pierwsza wypowiedź zwraca się do 'Samuelu', więc mówi do niego Zygfryd.",
+        "Znane postacie zawierają 'Samuel' i 'Zygfryd', inni nie występują.",
+        "Wypowiedzi są naprzemienne, więc druga to Samuel, trzecia Zygfryd itd."
+      ]
+    }
+  },
+  "rozmowa3": {
+    "participants": [
+      "Zygfryd",
+      "Samuel"
+    ],
+    "turns": [
+      {
+        "n": 1,
+        "speaker": "Zygfryd",
+        "text": "- Samuelu! helooo?! Słyszysz mnie teraz? Zadzwoniłem ponownie, bo chyba znowu z zasięgiem jest u Ciebie jakiś problem..."
+      },
+      {
+        "n": 2,
+        "speaker": "Samuel",
+        "text": "- tak Zygfryd, słyszę Cię teraz dobrze. Przepraszam, gdy poprzednio dzwoniłeś, byłem w fabryce. Wiesz, w sektorze D, gdzie się produkuje broń i tutaj mają jakąś izolację na ścianach dodatkową. Telefon gubi zasięg. Masz jakieś nowe zadanie dla mnie?"
+      },
+      {
+        "n": 3,
+        "speaker": "Zygfryd",
+        "text": "- tak. Mam dla Ciebie nowe zadanie. Skontaktuj się z Tomaszem. On pracuje w Centrali. Może pomóc Ci włamać się do komputera tego gościa. Masz już endpoint API?"
+      },
+      {
+        "n": 4,
+        "speaker": "Samuel",
+        "text": "- tak, mam ten endpoint. https://rafal.ag3nts.org/510bc - Dzięki. Zadzwonię do Tomasza dopytać o resztę. Coś jeszcze?"
+      },
+      {
+        "n": 5,
+        "speaker": "Zygfryd",
+        "text": "- Nie, to wszysto. No to weź teraz ten endpoint i użyj do połączenia. Tomasz powie Ci jakie jest hasło do pierwszej warstwy zabezpieczeń. OK. Nie marnuj czasu. Dzwoń!"
+      },
+      {
+        "n": 6,
+        "speaker": "Samuel",
+        "text": "- OK. Dzwonię do Tomasza. [*dźwięk odkładanej słuchawki*]"
+      }
+    ],
+    "notes": {
+      "confidence": 1,
+      "hints": [
+        "Pierwsza wypowiedź to ktoś wołający 'Samuelu', więc mówcą jest Zygfryd.",
+        "Wypowiedzi są naprzemienne.",
+        "Wypowiedź zawiera bezpośrednie zwroty do konkretnego uczestnika co ułatwia identyfikację."
+      ]
+    }
+  },
+  "rozmowa4": {
+    "participants": [
+      "Samuel",
+      "Tomasz"
+    ],
+    "turns": [
+      {
+        "n": 1,
+        "speaker": "Samuel",
+        "text": "Cześć Tomasz. Tu Samuel. Dostałem ten numer od szefa. Potrzebuję hasła do pierwszej warstwy zabezpieczeń kompa sam wiesz kogo. Możesz mi pomóc?"
+      },
+      {
+        "n": 2,
+        "speaker": "Tomasz",
+        "text": "Aaaa hej! hej!. Tak, mogę Ci pomóc. Hasło do pierwszej warstwy to \"NONOMNISMORIAR\"."
+      },
+      {
+        "n": 3,
+        "speaker": "Samuel",
+        "text": "mmmm... takie filozoficzne to hasło i w sumie pasuje teraz do kontekstu haha! Spoko. Dzięki. A kolejne warstwy?"
+      },
+      {
+        "n": 4,
+        "speaker": "Tomasz",
+        "text": "Nie wiem. Siedzę nad tymi warstwami już od kilku dni i powiem Ci, że on musiał używać technologii z przyszłości, bo nasze LLM-y są zbyt wolne, aby przejść kolejne warstwy weryfikacji. Bez skoku w czasie i pomocy Zygfryda chyba się nie uda"
+      },
+      {
+        "n": 5,
+        "speaker": "Samuel",
+        "text": "wiesz dobrze, że skakać w czasie może teraz tylko Azazel, a z nim to nie ma rozmowy. Ale dobra... Zygfryd nakręci numer piąty na złamanie tego."
+      },
+      {
+        "n": 6,
+        "speaker": "Tomasz",
+        "text": "to piątka nadal się niczego nie domyśla?"
+      },
+      {
+        "n": 7,
+        "speaker": "Samuel",
+        "text": "piątka to posłuszna owieczka. Wykonuje polecenia, ale nie wie co robi. Dobra, dzięki za hasło. Przekażę je numerowi piątemu [*dźwięk odkładanej słuchawki*]"
+      }
+    ],
+    "notes": {
+      "confidence": 1,
+      "hints": [
+        "Pierwsza wypowiedź jest bezpośrednim zwrotem Samuela do Tomasza ('Cześć Tomasz. Tu Samuel.')",
+        "Wypowiedzi są naprzemienne, co ułatwia przypisanie mówców",
+        "Znani uczestnicy to Samuel i Tomasz; pojawiają się inne nazwiska tylko jako odniesienia, nie jako uczestnicy rozmowy"
+      ]
+    }
+  },
+  "rozmowa5": {
+    "participants": [
+      "Witek",
+      "Barbara"
+    ],
+    "turns": [
+      {
+        "n": 1,
+        "speaker": "Witek",
+        "text": "- Halo? Jesteś tam? tu Witek. Potrzebuję Twojej pomocy."
+      },
+      {
+        "n": 2,
+        "speaker": "Barbara",
+        "text": "- no siema Witek! Jestem, jestem. Rozmawiałam z Samuelem. Chyba się na mnie trochę wkurzył. Jak Ci mogę pomóc?"
+      },
+      {
+        "n": 3,
+        "speaker": "Witek",
+        "text": "- Ty się znasz na programowaniu, security i tym całym IT, nie? Potrzebuję pomocy w złamaniu zabezpieczeń komputera. Mam endpoint API. Możesz mi w tym pomóc?"
+      },
+      {
+        "n": 4,
+        "speaker": "Barbara",
+        "text": "- no to daj adres do API. Pokombinuję coś sama, albo zapytam mądrzejszych od siebie"
+      },
+      {
+        "n": 5,
+        "speaker": "Witek",
+        "text": "- trzymaj, to jest ten endpoint do API: https://rafal.ag3nts.org/b46c3 ale nie mam hasła do niego"
+      },
+      {
+        "n": 6,
+        "speaker": "Barbara",
+        "text": "- a skąd Ty masz ten endpoint i do tego bez hasła? Jak go zdobyłeś?"
+      },
+      {
+        "n": 7,
+        "speaker": "Witek",
+        "text": "- aaa wiesz. Ten Twój \"nauczyciel\" mi go dostarczył, ale hasła jeszcze nie zdobył, ale pracuje on nad tym"
+      },
+      {
+        "n": 8,
+        "speaker": "Barbara",
+        "text": "- haha... przestań tak o nim mówić. Wiesz przecież, jak on się wkurza, gdy się go nazwie nauczycielem. Dobra, daj mi chwilę. Będę próbowała coś z tym pokombinować."
+      },
+      {
+        "n": 9,
+        "speaker": "Witek",
+        "text": "- jasne mała! powodzenia z tym kombinowaniem. Bądź jak Helmut Rahn w 1954 roku i pokaż im na co Cię stać! [*dźwięk odkładanej słuchawki*]"
+      }
+    ],
+    "notes": {
+      "confidence": 1,
+      "hints": [
+        "Pierwsza wypowiedź zaczyna się od 'tu Witek', więc jest to Witek.",
+        "Druga wypowiedź zawiera formę żeńską 'Rozmawiałam', co sugeruje Agentkę.",
+        "Wypowiedzi są naprzemienne, uczestnicy to Witek i Agentka.",
+        "Wzmianka o 'nauczycielu' i zwroty do 'Agentko' wskazują na rozmowę z Agentką."
+      ]
+    }
+  }
+}
